@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.header {
+  background-color: rgb(5, 15, 15);
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  text-shadow: 2px 2px 4px red;
+}
+
+img {
+  height: 300px;
+  width: 281px;
+  border-radius: 50%;
+}
+
+.top {
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.right h1 {
+  font-size: 175%;
+  letter-spacing: 5px;
+  color: whitesmoke;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.underline {
+  width: 300px;
+  height: 3px;
+  background-color: blueviolet;
+  margin-left: 34px;
+}
+
+.underline::before {
+  content: "";
+  width: 300px;
+  height: 3px;
+  position: absolute;
+  background-color: black;
+  animation: line 1s linear infinite;
+}
+
+@keyframes line {
+  0% {
+    left: 30%;
+  }
+  100% {
+    left: 50%;
+  }
+}
+
+.right h3 {
+  margin-top: 40px;
+  margin-left: 20px;
+  color: bisque;
+  font-size: 25px;
+}
+
+.skills p {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.marskill {
+  margin-left: 12%;
+}
+
+#experience {
+  background-color: rgb(240, 232, 247);
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.exp-left {
+  width: 40%;
+  margin-left: 20px;
+}
+
+.exp-left li {
+  font-weight: bolder;
+}
+
+.exp-right {
+  width: 60%;
+}
+
+.left_right {
+  background-color: rebeccapurple;
+}
+
+.left_ {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.right_ {
+  margin-left: 60px;
+  padding: 20px;
+}
+
+.expgrid {
+  display: grid;
+  grid-template-columns: 30% 60%;
+}
+
+.contact {
+  background-color: rgb(61, 78, 78);
+}
+
+.footer_ {
+  text-align: center;
+  color: rgb(208, 211, 20);
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .c {
+  text-align: center;
+  margin-right: 120px;
+  margin-top: 20px;
+  color: rgb(245, 245, 229);
+}
